@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(if not exist \"C:\\Users\\ketan\\Sneha Posters\\Assets\\foliowebsite\\src\\lib\" mkdir \"C:\\Users\\ketan\\Sneha Posters\\Assets\\foliowebsite\\src\\lib\")",
+      "Bash(npm run build)",
+      "Bash(npm run lint)",
+      "Bash(npm run dev:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
